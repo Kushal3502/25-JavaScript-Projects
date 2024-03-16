@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #51625f;
+}
+
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: rgb(202, 213, 154);
+    text-align: center;
+}
+
+.accordion {
+    max-width: 700px;
+    margin: auto;
+}
+
+.accordion_item {
+    border: 1px solid rgb(181, 168, 172);
+    padding: 20px;
+}
+
+.accordion_title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.accordion_title h3 {
+    color: aliceblue;
+    flex: 1;
+    font-size: 25px;
+}
+
+.accordion_title i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+}
+
+.accordion_title.active+.answer {
+    display: block;
+    padding-top: 20px;
+}
+
+.answer p {
+    font-size: 20px;
+    color: rgb(214, 195, 182);
+}
+
+.accordion_title.active i {
+    transform: rotate(180deg);
+}
+
+.accordion_title.active {
+    border-bottom: 2px solid rgb(48, 165, 198);
+}
