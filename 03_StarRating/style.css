@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* background-color: lightcoral; */
+    height: 200px;
+    width: 50vw;
+}
+
+.stars {
+    /* background-color: lightgreen; */
+    height: 120px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-solid {
+    font-size: 43px;
+    cursor: pointer;
+}
+
+.fa-red{
+    font-size: 43px;
+    cursor: pointer;
+    color: rgb(246, 58, 58);
+}
+.fa-yellow{
+    font-size: 43px;
+    cursor: pointer;
+    color: yellow;
+}
+.fa-green{
+    font-size: 43px;
+    cursor: pointer;
+    color: rgb(17, 164, 17);
+}
+.rating {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.rating p {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
