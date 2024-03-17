@@ -14,9 +14,6 @@ function onmouseover(e) {
 }
 function handleCurrentRating(currentRating) {
     for (let i = 0; i < 5; i++) {
-        if (currentRating == 1) { }
-        else if (currentRating < 4) { }
-        else{}
         if (i < currentRating) {
             stars[i].classList.add('fa-yellow')
         } else {
