@@ -24,21 +24,24 @@
     cursor: pointer;
 }
 
-.fa-red{
+.fa-red {
     font-size: 43px;
     cursor: pointer;
     color: rgb(246, 58, 58);
 }
-.fa-yellow{
+
+.fa-yellow {
     font-size: 43px;
     cursor: pointer;
     color: yellow;
 }
-.fa-green{
+
+.fa-green {
     font-size: 43px;
     cursor: pointer;
     color: rgb(17, 164, 17);
 }
+
 .rating {
     display: flex;
     gap: 5px;

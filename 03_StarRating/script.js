@@ -25,7 +25,7 @@ function onclick(e) {
     const currentRating = e.target.dataset.item;
     rating = currentRating;
     handleCurrentRating(rating);
-    ratingValue.innerHTML=rating
+    ratingValue.innerHTML = rating
 }
 function onmouseleave() {
     handleCurrentRating(rating)
