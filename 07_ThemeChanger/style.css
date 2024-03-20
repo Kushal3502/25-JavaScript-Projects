@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-color:rgb(246, 246, 189);
+    --text-color:black;
+    --btn-bg:#212121;
+    --btn-color:aliceblue;
+}
+[data-theme="dark"]{
+    --bg-color:#212121;
+    --text-color:aliceblue;
+    --btn-bg:aliceblue;
+    --btn-color:#212121;
+}
+
+.container{
+    height: 100vh;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+/* .container.light {
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container.dark {
+    height: 100vh;
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+} */
+
+h1{
+    font-size: 50px;
+}
+/* h1.light {
+    font-size: 50px;
+}
+
+h1.dark {
+    font-size: 50px;
+    color: aliceblue;
+} */
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: var(--btn-bg);
+    color: var(--btn-color);
+}
+/* button.light {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button.dark {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+} */
