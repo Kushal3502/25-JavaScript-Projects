@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #212121;
+    height: 100vh;
+    position: relative;
+}
+
+.open {
+    position: absolute;
+    left: 50%;
+    top: 25px;
+    font-size: 25px;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.modal-container {
+    display: none;
+    position: absolute;
+    top: 250px;
+    left: 40%;
+    width: 40%;
+    background-color: gold;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    font-size: 20px;
+    padding: 8px 10px;
+    cursor: pointer;
+}
