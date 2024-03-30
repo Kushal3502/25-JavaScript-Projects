@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #212121;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: aliceblue;
+}
+
+.button-wrapper {
+    margin: 20px;
+}
+
+.filter {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-left: 20px;
+}
+
+.content-wrapper {
+    width: 800px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 25px;
+}
+
+.card.show {
+    display: block;
+    font-size: 25px;
+    padding: 10px;
+    background-color: gold;
+    width: 250px;
+    text-align: center;
+}
+
+.card.hide {
+    display: none;
+}
