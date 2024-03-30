@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 40px;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+input {
+    font-size: 20px;
+    padding: 15px;
+}
+
+button {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.error {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+
+.qr-container {
+    display: flex;
+    justify-content: center;
+}
