@@ -1,0 +1,15 @@
+.loader.show {
+    display: block;
+}
+
+.loader {
+    display: none;
+}
+
+.users.hide {
+    display: none;
+}
+
+.users {
+    display: block;
+}
