@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-section {
+    width: 100%;
+    background-color: lightseagreen;
+    padding: 20px;
+    position: fixed;
+    z-index: 1;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.progress-container {
+    width: 100%;
+    height: 20px;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    /* width: 0%; */
+    height: 20px;
+    background-color: lightcoral;
+}
+
+.post {
+    background-color: lightskyblue;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.title {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.body {
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.tags {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
