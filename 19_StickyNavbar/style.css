@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #212121;
+    height: 80px;
+}
+
+.navbar a {
+    font-size: 28px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.body {
+    padding: 25px;
+    background-color: lightcoral;
+    font-size: 28px;
+}
+
+.fixed {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
