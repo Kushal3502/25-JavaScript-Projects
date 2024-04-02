@@ -1,0 +1,15 @@
+.loader {
+    display: none;
+}
+
+.loader.show {
+    display: block;
+}
+
+.data-container {
+    display: block;
+}
+
+.data-container.hide {
+    display: none;
+}
